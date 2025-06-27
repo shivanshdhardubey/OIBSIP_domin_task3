@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="styless.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Daily To-Do App</h1>
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="Enter your task..." />
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <div class="tasks-section">
+      <h2>📌 Pending Tasks</h2>
+      <ul id="pendingList" class="task-list"></ul>
+    </div>
+
+    <div class="tasks-section">
+      <h2>Completed Tasks</h2>
+      <ul id="completedList" class="task-list"></ul>
+    </div>
+  </div>
+
+  <script src="scriptss.js"></script>
+</body>
+</html>
